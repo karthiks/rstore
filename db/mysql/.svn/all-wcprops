@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/spring-samples/!svn/ver/118/jpetstore/trunk/org.springframework.samples.jpetstore/db/mysql
+END
+jpetstore-mysql-dataload.sql
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/spring-samples/!svn/ver/118/jpetstore/trunk/org.springframework.samples.jpetstore/db/mysql/jpetstore-mysql-dataload.sql
+END
+jpetstore-mysql-schema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/spring-samples/!svn/ver/118/jpetstore/trunk/org.springframework.samples.jpetstore/db/mysql/jpetstore-mysql-schema.sql
+END

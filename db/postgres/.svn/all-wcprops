@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/spring-samples/!svn/ver/118/jpetstore/trunk/org.springframework.samples.jpetstore/db/postgres
+END
+jpetstore-postgres-schema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/spring-samples/!svn/ver/118/jpetstore/trunk/org.springframework.samples.jpetstore/db/postgres/jpetstore-postgres-schema.sql
+END
+jpetstore-postgres-dataload.sql
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/spring-samples/!svn/ver/118/jpetstore/trunk/org.springframework.samples.jpetstore/db/postgres/jpetstore-postgres-dataload.sql
+END

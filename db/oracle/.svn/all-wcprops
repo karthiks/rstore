@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/spring-samples/!svn/ver/118/jpetstore/trunk/org.springframework.samples.jpetstore/db/oracle
+END
+jpetstore-oracle-schema-xa1.sql
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/spring-samples/!svn/ver/118/jpetstore/trunk/org.springframework.samples.jpetstore/db/oracle/jpetstore-oracle-schema-xa1.sql
+END
+jpetstore-oracle-schema-xa2.sql
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/spring-samples/!svn/ver/118/jpetstore/trunk/org.springframework.samples.jpetstore/db/oracle/jpetstore-oracle-schema-xa2.sql
+END
+jpetstore-oracle-dataload.sql
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/spring-samples/!svn/ver/118/jpetstore/trunk/org.springframework.samples.jpetstore/db/oracle/jpetstore-oracle-dataload.sql
+END
+jpetstore-oracle-schema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/spring-samples/!svn/ver/118/jpetstore/trunk/org.springframework.samples.jpetstore/db/oracle/jpetstore-oracle-schema.sql
+END

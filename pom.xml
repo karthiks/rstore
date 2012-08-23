@@ -142,7 +142,13 @@
 			<version>${jstl.version}</version>
 			<scope>runtime</scope>
 		</dependency>
-
+		<!-- Added by Ravi -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>org.apache.commons.validator</artifactId>
+			<version>1.4.0</version>
+			<scope>runtime</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjweaver</artifactId>

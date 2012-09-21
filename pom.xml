@@ -224,7 +224,7 @@
 				<directory>src/main/resources</directory>
 			</resource>
 		</resources>
-
+<!--  
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -242,6 +242,6 @@
            			<outputDirectory>/home/ravindra/jboss-as-7.1.0.Final/standalone/deployments</outputDirectory>
         		</configuration>
     		</plugin>
-		</plugins>
+		</plugins> -->
 	</build>
 </project>

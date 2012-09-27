@@ -185,7 +185,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<!--  
 	<repositories>
 		<repository>
 			<id>org.springsource.maven.snapshot</id>
@@ -211,7 +210,6 @@
 			<url>http://repository.springsource.com/maven/bundles/external</url>
 		</repository>
 	</repositories>
-	-->
 	<build>
 		<resources>
 			<resource>

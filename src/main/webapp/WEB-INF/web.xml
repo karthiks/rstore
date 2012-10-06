@@ -70,11 +70,11 @@
 		- The root context is the parent of all servlet-specific contexts.
 		- This means that its beans are automatically available in these child contexts,
 		- both for getBean(name) calls and (external) bean references.
-	-->
+	
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
-
+-->
 	<!--
 		- Spring web MVC servlet that dispatches requests to registered handlers.
 		- Has its own application context, by default defined in "{servlet-name}-servlet.xml",

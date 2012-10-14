@@ -61,7 +61,7 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.6</version>
-		</dependency>
+			</dependency>
 		<!-- Needed for fileupload -->
 		<dependency>
 			<groupId>commons-io</groupId>
@@ -166,12 +166,13 @@
 			<artifactId>slf4j-nop</artifactId>
 			<version>${slf4jVersion}</version>
 		</dependency>
-
+        <!--  commenting out to fix multiple bindings issue 
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-jdk14</artifactId>
 			<version>${slf4jVersion}</version>
 		</dependency>
+		-->
 
 		<dependency>
 			<groupId>org.slf4j</groupId>

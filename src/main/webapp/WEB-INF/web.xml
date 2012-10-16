@@ -52,11 +52,11 @@
 		- This web app specifies "petclinic.root" (see log4j.properties file).
 	-->
 	<!-- Leave the listener commented-out if using JBoss -->
-	
+	<!--  Modified by Ravi commented the following listener
 	<listener>
 		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
 	</listener>
-	
+	-->
 
 	<!--
 		- Loads the root application context of this web app at startup,
@@ -70,11 +70,11 @@
 		- The root context is the parent of all servlet-specific contexts.
 		- This means that its beans are automatically available in these child contexts,
 		- both for getBean(name) calls and (external) bean references.
-	
+	  Modifed by Ravi uncommented the following listener -->
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
--->
+
 	<!--
 		- Spring web MVC servlet that dispatches requests to registered handlers.
 		- Has its own application context, by default defined in "{servlet-name}-servlet.xml",

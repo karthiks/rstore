@@ -1,0 +1,68 @@
+{
+	"customchk":{
+		"TAGRules":[
+			{
+				"include_dirs":"testinput",
+				"exclude_dirs":"",
+				"tags":"^form$/^img$/^input$/^a$/^textarea$/^button$",
+			},
+			{
+				"include_dirs":"",
+				"exclude_dirs":"\\/war\\/app\\/web2\\/tiles",
+				"tags":"^html$/^body$",
+			}
+		],
+		"printallowed":"N",
+		"servletcode":"N"
+		
+	},
+	"literalchk" : {
+	"file_exclude_patterns":"*addUser.jsp/[a-z]*props.jsp/common.jsp/downloadUsersSubscriptions.jsp/test.jsp/editmedia.jsp",
+	"Word" : {
+			"include_patterns":"",
+			"exclude_patterns": "^true$/^false$/^label$/^jctable$/^left$/^div$/^[jJ]ava[sS]cript$/^top$/^bottom$/^right$/^null$/^nowrap$/^hidden$/^bean$/^java$/^[0-9]+px$/"
+		},
+		"Sentence" : {
+				"include_patterns":"",
+				"exclude_patterns": "^html.*body$"
+	},
+	"Rules":[
+			{
+				"context" 	:"^.*title/^.*option/^.*.column.alt/^.*onmouseover$/^.*label$",
+				"Word" : {
+					"include_patterns":"^.*$",
+					"exclude_patterns": ""
+					},
+				"Sentence" : {
+					"include_patterns":"^.*$",
+					"exclude_patterns": ""
+				}
+			},
+			{
+				"context" 	:"form.*/jcui.*/select.name/page.*/taglib.*/^.*align",
+				"Word" : {
+					"include_patterns":"",
+					"exclude_patterns": "[a-zA-Z]*"
+					},
+				"Sentence" : {
+					"include_patterns":"",
+					"exclude_patterns": ""
+				}
+			},
+			{
+				"context" 	:"^.*[c,C]lass/^script.function$/^.*link.rel/^.*DOCTYPE$/^.*DOCTYPE.[hH][tT][mM][lL]$/^page.import$/^.*script.language$/^.*.style/^.*cssStyle$/^.*hidden.*$/^.*.[oO][nN][cC][lL][iI][cC][kK]$/^id$/^style$/^.*LOG.debug$/^.*script.var$/^.*JQRYID/^.*script.ready$/*[fF][oO][nN][tT].face$/*meta.content$/^.*document.getElementById$/^.*.id/^.*.attr/^.*name",
+
+				"Word" : {
+					"include_patterns":"",
+					"exclude_patterns": "^.*$"
+					},
+				"Sentence" : {
+					"include_patterns":"",
+					"exclude_patterns": "^.*$"
+				}
+			},
+	]
+	
+	}
+}
+

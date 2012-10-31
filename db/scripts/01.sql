@@ -1,0 +1,1 @@
+update jpetstore.item SET attr2="update1" where itemid="EST-1";

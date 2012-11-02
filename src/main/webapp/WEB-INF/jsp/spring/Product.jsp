@@ -15,7 +15,7 @@
 </center>
 
 <table align="center" bgcolor="#008800" border="0" cellspacing="2" cellpadding="3">
-  <tr bgcolor="#CCCCCC">  <td><b>Item ID</b></td>  <td><b>Product ID</b></td>  <td><b>Description</b></td>  <td><b>List Price</b></td>  <td>&nbsp;</td>  </tr>
+  <tr bgcolor="#CCCCCC">  <td><b>Item ID</b></td>  <td><b>Product ID Ravi</b></td>  <td><b>Description</b></td>  <td><b>List Price</b></td>  <td>&nbsp;</td>  </tr>
 <c:forEach var="item" items="${itemList.pageList}">
   <tr bgcolor="#FFFF88">
   <td><b>

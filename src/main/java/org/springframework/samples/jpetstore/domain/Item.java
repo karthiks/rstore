@@ -65,6 +65,7 @@ public class Item implements Serializable {
   /* Public Methods */
 
   public String toString() {
+	System.out.println("Item class modified");
     return "(" + getItemId().trim() + "-" + getProductId().trim() + ")";
   }
 

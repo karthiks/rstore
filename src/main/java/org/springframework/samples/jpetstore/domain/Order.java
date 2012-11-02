@@ -126,7 +126,7 @@ public class Order implements Serializable {
   public void initOrder(Account account, Cart cart) {
     username = account.getUsername();
     orderDate = new Date();
-
+    System.out.println("ravi--initOrder called");
     shipToFirstName = account.getFirstName();
     shipToLastName = account.getLastName();
     shipAddress1 = account.getAddress1();

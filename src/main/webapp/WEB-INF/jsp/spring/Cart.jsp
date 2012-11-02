@@ -12,7 +12,7 @@
 <form action="<c:url value="/shop/updateCartQuantities.do"/>" method="post">
 <table align="center" bgcolor="#008800" border="0" cellspacing="2" cellpadding="5">
   <tr bgcolor="#cccccc">
-  <td><b>Item ID</b></td>  <td><b>Product ID</b></td>  <td><b>Description</b></td> <td><b>In Stock?</b></td> <td><b>Quantity</b></td>  <td><b>List Price</b></td> <td><b>Total Cost</b></td>  <td>&nbsp;</td>
+  <td><b>Item ID</b></td>  <td><b>Product ID</b></td>  <td><b>Description by Ravi</b></td> <td><b>In Stock?</b></td> <td><b>Quantity</b></td>  <td><b>List Price</b></td> <td><b>Total Cost</b></td>  <td>&nbsp;</td>
   </tr>
 
 <c:if test="${cart.numberOfItems == 0}">

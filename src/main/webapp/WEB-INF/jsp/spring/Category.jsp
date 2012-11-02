@@ -11,7 +11,7 @@
   <h2><c:out value="${category.name}"/></h2>
   </center>
 <table align="center" bgcolor="#008800" border="0" cellspacing="2" cellpadding="3">
-  <tr bgcolor="#CCCCCC">  <td><b>Product ID</b></td>  <td><b>Name</b></td>  </tr>
+  <tr bgcolor="#CCCCCC">  <td><b>Product ID</b></td>  <td><b>Name by Ravi</b></td>  </tr>
 <c:forEach var="product" items="${productList.pageList}">
   <tr bgcolor="#FFFF88">
   <td><b><a href="<c:url value="/shop/viewProduct.do"><c:param name="productId" value="${product.productId}"/></c:url>">

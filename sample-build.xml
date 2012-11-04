@@ -7,8 +7,16 @@
   <property name="build" location="build"/>
   <property name="dist"  location="dist"/>
 
-  <target name="test">
+  <target name="test1">
     <!-- Create the time stamp -->
-    <echo message ="this works"/>
+    <echo message ="this test1 works"/>
+  </target>
+  <target name="test2">
+    <!-- Create the time stamp -->
+    <echo message ="this test2 works"/>
+  </target>
+  <target name="test2">
+    <!-- Create the time stamp -->
+    <echo message ="this test3 works"/>
   </target>
 </project>

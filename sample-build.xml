@@ -15,7 +15,7 @@
     <!-- Create the time stamp -->
     <echo message ="this test2 works"/>
   </target>
-  <target name="test2">
+  <target name="test3">
     <!-- Create the time stamp -->
     <echo message ="this test3 works"/>
   </target>

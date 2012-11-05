@@ -10,9 +10,9 @@
   </description>
 
   <!-- Here's some rules we'll specify one at a time -->
-  <rule ref="rulesets/unusedcode.xml/UnusedLocalVariable"/>
-  <rule ref="rulesets/unusedcode.xml/UnusedPrivateField"/>
-  <rule ref="rulesets/unusedcode.xml/UnusedPrivateMethod"/>
+  <rule ref="rulesets/java/unusedcode.xml/UnusedLocalVariable"/>
+  <rule ref="rulesets/java/unusedcode.xml/UnusedPrivateField"/>
+  <rule ref="rulesets/java/unusedcode.xml/UnusedPrivateMethod"/>
   <rule ref="rulesets/imports.xml/DuplicateImports"/>
   <rule ref="rulesets/basic.xml/UnnecessaryConversionTemporary"/>
   <rule ref="rulesets/braces.xml"/>
@@ -33,6 +33,6 @@
   <rule ref="rulesets/strictexception.xml"/>
   <rule ref="rulesets/strings.xml"/>
   <rule ref="rulesets/typeresolution.xml"/>
-  <rule ref="rulesets/unusedcode.xml"/>
+  <rule ref="rulesets/java/unusedcode.xml"/>
 
 </ruleset>

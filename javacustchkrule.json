@@ -1,0 +1,31 @@
+{
+	"loopcheck": {
+		"no"		: "1",
+		"type"		: "error",
+		"desc" 		: "costly method calls in loop not allowed",
+		"solution" 	: "alter code to do bulk processing",
+		"definition":[ 
+			{
+			"include": { "file":"", "directory":"" }, 
+			"exclude": { "file":"", "directory":"" }, 
+			"methods":"^.*Facade.*$/^.*DAO.*$/^.*API.*$"
+			}
+                       ]
+        },
+	"classcallrules": {
+		"no"		: "2",
+		"type"		: "error",
+		"desc" 		: "call to this class cannot be done from this class",
+		"solution" 	: "needs to be refactored",
+		"definition":[ 
+			{
+			"include": { "file":"", "directory":"" }, 
+			"exclude": { "file":"", "directory":"" }, 
+			"caller_packages":"",
+			"caller_classes":"",
+			"called_packages":"System",
+			"called_classes":"out"
+			}
+                 ]
+        },
+}

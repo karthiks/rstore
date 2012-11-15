@@ -25,15 +25,7 @@
 			"caller_classes":"",
 			"called_packages":"System",
 			"called_classes":"out"
-			}
-                 ]
-        },
-        "layeringrules": {
-		"no"		: "3",
-		"type"		: "error",
-		"desc" 		: "Service classes can not call Domain classes",
-		"solution" 	: "needs to be refactored",
-		"definition":[ 
+			},
 			{
 			"include": { "file":"", "directory":"" }, 
 			"exclude": { "file":"", "directory":"" }, 
@@ -43,5 +35,5 @@
 			"called_classes":""
 			}
                  ]
-        },
+        }
 }

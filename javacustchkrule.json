@@ -28,4 +28,20 @@
 			}
                  ]
         },
+        "layeringrules": {
+		"no"		: "3",
+		"type"		: "error",
+		"desc" 		: "Service classes can not call Domain classes",
+		"solution" 	: "needs to be refactored",
+		"definition":[ 
+			{
+			"include": { "file":"", "directory":"" }, 
+			"exclude": { "file":"", "directory":"" }, 
+			"caller_packages":"org.springframework.samples.jpetstore.service.client",
+			"caller_classes":"",
+			"called_packages":"org.springframework.samples.jpetstore.domain",
+			"called_classes":""
+			}
+                 ]
+        },
 }

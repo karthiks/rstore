@@ -4,13 +4,13 @@
    "http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>
    <constant name="struts.devMode" value="true" />
-   <package name="helloworld" extends="struts-default">
+   <package name="helloworld" namespace="/" extends="struts-default">
      
       <action name="hello" 
             class="com.tutorialspoint.struts2.HelloWorldAction" 
             method="execute">
             <result name="success">/HelloWorld.jsp</result>
-            <result name="error" type="tiles">tiles.store.browseservices</result>
+            <result name="error">/Error.jsp</result>
       </action>
       <action name="hello1" 
             class="com.tutorialspoint.struts2.HelloWorldAction" 
@@ -21,11 +21,7 @@
             class="com.tutorialspoint.struts2.HelloWorldAction" 
             method="execute">
             <result name="success">/HelloWorld.jsp</result>
-            <result name="error" type="tiles">tiles.store.browseservices</result>
+            <result name="error">/Error.jsp</result>
       </action>
-      <-- more actions can be listed here -->
-
    </package>
-   <-- more packages can be listed here -->
-
 </struts>

@@ -1,0 +1,21 @@
+{
+	"Action Rules": {
+		"no"		: "struts_1",
+		"type"		: "error",
+		"desc" 		: "violation in tags rules for action ",
+		"solution" 	: "",
+		"definition":[ 
+			{
+			"error description"	: "violation in tags rules for action ",
+			"tag type":"result.name",
+			"include": { "file":"", "directory":"" }, 
+			"exclude": { "file":"", "directory":"" }, 
+			"include actions": "",
+			"exclude actions": "",
+			"values atleast once":"error",
+			"cannot have value":""
+			}
+		]
+        }
+	
+}

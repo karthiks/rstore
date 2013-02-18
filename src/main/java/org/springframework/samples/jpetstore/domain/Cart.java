@@ -17,6 +17,7 @@ public class Cart implements Serializable {
   private final PagedListHolder itemList = new PagedListHolder();
 
   /* JavaBeans Properties */
+  /* Comment added for Story S-00101 */
 
 	public Cart() {
 		this.itemList.setPageSize(4);

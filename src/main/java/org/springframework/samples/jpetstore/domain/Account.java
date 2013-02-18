@@ -27,7 +27,7 @@ public class Account implements Serializable {
   private String bannerName;
 
   /* JavaBeans Properties */
-
+  /* Comment added for Story no S-00101 */
   public String getUsername() { return username; }
   public void setUsername(String username) { this.username = username; }
 

@@ -22,7 +22,7 @@ public class Item implements Serializable {
   private int quantity;
 
   /* JavaBeans Properties */
-
+  /* Added comment for story S-00102 */
   public String getItemId() { return itemId; }
   public void setItemId(String itemId) { this.itemId = itemId.trim(); }
 

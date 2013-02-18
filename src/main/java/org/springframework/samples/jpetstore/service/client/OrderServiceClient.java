@@ -29,7 +29,7 @@ import org.springframework.util.StopWatch;
 public class OrderServiceClient {
 
 	public static final String CLIENT_CONTEXT_CONFIG_LOCATION = "client/clientContext.xml";
-
+    /* Comment added to fix a defect D-00902 */
 
 	private final ListableBeanFactory beanFactory;
 

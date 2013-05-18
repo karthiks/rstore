@@ -30,8 +30,10 @@
 				<configuration>
 					<mainClass>org.hsqldb.Server</mainClass>
 					<arguments>
-						<argument>-database</argument>
+						<argument>-database.0</argument>
 						<argument>${db.file}</argument>
+						<argument>-dbname.0</argument>
+                        <argument>${dbname}</argument>
 						<argument>-port</argument>
 						<argument>9002</argument>
 						<argument>-trace</argument>

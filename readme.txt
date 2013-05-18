@@ -55,10 +55,12 @@ for certain databases like MS-SQL and Oracle, to use appropriate generation
 strategies for order IDs. See the corresponding commented-out DAO definitions
 in the context XML files.
 
+----------------------------------------------------------------------
 A guide to step-by-step deployment, assuming JDK 1.5.x and Tomcat 6.x:
+----------------------------------------------------------------------
 1. Run "mvn package" to generate the WAR file
 2. Copy the generated "target/org.springframework.samples.jpetstore-1.0.0-SNAPSHOT.war" 
    to "<TOMCAT_HOME>/webapps/jpetstore.war"
 3. Start HSQLDB via "db/hsqldb/server.bat" or "db/hsqldb/server.sh"
 4. Start Tomcat (default port will be 8080)
-5. Open "http://localhost:8080/jpetstore" in an Internet browser
+5. Open "http://localhost:8080/jpetstore" in a browser

@@ -4,12 +4,12 @@
 
 <sqlMapConfig>
 
-	<sqlMap resource="org/springframework/samples/jpetstore/dao/ibatis/maps/Account.xml"/>
-	<sqlMap resource="org/springframework/samples/jpetstore/dao/ibatis/maps/Category.xml"/>
-	<sqlMap resource="org/springframework/samples/jpetstore/dao/ibatis/maps/Product.xml"/>
-	<sqlMap resource="org/springframework/samples/jpetstore/dao/ibatis/maps/Item.xml"/>
-	<sqlMap resource="org/springframework/samples/jpetstore/dao/ibatis/maps/Order.xml"/>
-	<sqlMap resource="org/springframework/samples/jpetstore/dao/ibatis/maps/LineItem.xml"/>
-	<sqlMap resource="org/springframework/samples/jpetstore/dao/ibatis/maps/Sequence.xml"/>
+	<sqlMap resource="org/jpetstore/dao/ibatis/maps/Account.xml"/>
+	<sqlMap resource="org/jpetstore/dao/ibatis/maps/Category.xml"/>
+	<sqlMap resource="org/jpetstore/dao/ibatis/maps/Product.xml"/>
+	<sqlMap resource="org/jpetstore/dao/ibatis/maps/Item.xml"/>
+	<sqlMap resource="org/jpetstore/dao/ibatis/maps/Order.xml"/>
+	<sqlMap resource="org/jpetstore/dao/ibatis/maps/LineItem.xml"/>
+	<sqlMap resource="org/jpetstore/dao/ibatis/maps/Sequence.xml"/>
 
 </sqlMapConfig>

@@ -14,7 +14,7 @@
     <property name="reference-type" value="WEAK"/>
   </cacheModel>
 
-  <resultMap id="result" class="org.springframework.samples.jpetstore.domain.Item">
+  <resultMap id="result" class="org.jpetstore.domain.Item">
     <result property="itemId" column="itemid" columnIndex="1"/>
     <result property="listPrice" column="listprice" columnIndex="2"/>
     <result property="unitCost" column="unitcost" columnIndex="3"/>
@@ -32,7 +32,7 @@
     <result property="attribute5" column="attr5" columnIndex="14"/>
   </resultMap>
 
-  <resultMap id="result-with-quantity" class="org.springframework.samples.jpetstore.domain.Item">
+  <resultMap id="result-with-quantity" class="org.jpetstore.domain.Item">
     <result property="itemId" column="itemid" columnIndex="1"/>
     <result property="listPrice" column="listprice" columnIndex="2"/>
     <result property="unitCost" column="unitcost" columnIndex="3"/>

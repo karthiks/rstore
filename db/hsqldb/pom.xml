@@ -2,9 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
                              http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.springframework.samples.jpetstore</groupId>
-	<artifactId>org.springframework.samples.jpetstore.hsqldb.server</artifactId>
-	<name>org.springframework.samples.jpetstore.hsqldb</name>
+	<groupId>org.jpetstore</groupId>
+	<artifactId>org.jpetstore.hsqldb.server</artifactId>
+	<name>org.jpetstore.hsqldb</name>
 	<version>1.0.0-SNAPSHOT</version>
 
 	<dependencies>

@@ -3,7 +3,7 @@
 
 <sqlMap namespace="Order">
 
-  <resultMap id="result" class="org.springframework.samples.jpetstore.domain.Order">
+  <resultMap id="result" class="org.jpetstore.domain.Order">
     <result property="billAddress1" column="billaddr1" columnIndex="1"/>
     <result property="billAddress2" column="billaddr2" columnIndex="2"/>
     <result property="billCity" column="billcity" columnIndex="3"/>

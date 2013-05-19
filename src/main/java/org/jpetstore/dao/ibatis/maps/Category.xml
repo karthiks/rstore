@@ -8,7 +8,7 @@
     <property name="reference-type" value="WEAK"/>
   </cacheModel>
 
-  <resultMap id="result" class="org.springframework.samples.jpetstore.domain.Category">
+  <resultMap id="result" class="org.jpetstore.domain.Category">
     <result property="categoryId" column="catid" columnIndex="1"/>
     <result property="name" column="name" columnIndex="2"/>
     <result property="description" column="descn" columnIndex="3"/>

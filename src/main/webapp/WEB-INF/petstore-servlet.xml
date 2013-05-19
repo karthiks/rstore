@@ -20,11 +20,11 @@
 
 	<bean id="defaultHandlerMapping" class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
 
-	<bean name="/shop/addItemToCart.do" class="org.springframework.samples.jpetstore.web.spring.AddItemToCartController">
+	<bean name="/shop/addItemToCart.do" class="org.jpetstore.web.spring.AddItemToCartController">
 		<property name="petStore" ref="petStore"/>
 	</bean>
 
-	<bean name="/shop/checkout.do" class="org.springframework.samples.jpetstore.web.spring.ViewCartController">
+	<bean name="/shop/checkout.do" class="org.jpetstore.web.spring.ViewCartController">
 		<property name="successView" value="Checkout"/>
 	</bean>
 
@@ -32,21 +32,21 @@
 		<property name="viewName" value="index"/>
 	</bean>
 
-	<bean name="/shop/newAccount.do" class="org.springframework.samples.jpetstore.web.spring.AccountFormController">
+	<bean name="/shop/newAccount.do" class="org.jpetstore.web.spring.AccountFormController">
 		<property name="petStore" ref="petStore"/>
 		<property name="validator" ref="accountValidator"/>
 		<property name="successView" value="index"/>
 	</bean>
 
-	<bean name="/shop/removeItemFromCart.do" class="org.springframework.samples.jpetstore.web.spring.RemoveItemFromCartController"/>
+	<bean name="/shop/removeItemFromCart.do" class="org.jpetstore.web.spring.RemoveItemFromCartController"/>
 
-	<bean name="/shop/signoff.do" class="org.springframework.samples.jpetstore.web.spring.SignoffController"/>
+	<bean name="/shop/signoff.do" class="org.jpetstore.web.spring.SignoffController"/>
 
-	<bean name="/shop/searchProducts.do" class="org.springframework.samples.jpetstore.web.spring.SearchProductsController">
+	<bean name="/shop/searchProducts.do" class="org.jpetstore.web.spring.SearchProductsController">
 		<property name="petStore" ref="petStore"/>
 	</bean>
 
-	<bean name="/shop/signon.do" class="org.springframework.samples.jpetstore.web.spring.SignonController">
+	<bean name="/shop/signon.do" class="org.jpetstore.web.spring.SignonController">
 		<property name="petStore" ref="petStore"/>
 	</bean>
 
@@ -54,21 +54,21 @@
 		<property name="viewName" value="SignonForm"/>
 	</bean>
 
-	<bean name="/shop/updateCartQuantities.do" class="org.springframework.samples.jpetstore.web.spring.UpdateCartQuantitiesController"/>
+	<bean name="/shop/updateCartQuantities.do" class="org.jpetstore.web.spring.UpdateCartQuantitiesController"/>
 
-	<bean name="/shop/viewCart.do" class="org.springframework.samples.jpetstore.web.spring.ViewCartController">
+	<bean name="/shop/viewCart.do" class="org.jpetstore.web.spring.ViewCartController">
 		<property name="successView" value="Cart"/>
 	</bean>
 
-	<bean name="/shop/viewCategory.do" class="org.springframework.samples.jpetstore.web.spring.ViewCategoryController">
+	<bean name="/shop/viewCategory.do" class="org.jpetstore.web.spring.ViewCategoryController">
 		<property name="petStore" ref="petStore"/>
 	</bean>
 
-	<bean name="/shop/viewItem.do" class="org.springframework.samples.jpetstore.web.spring.ViewItemController">
+	<bean name="/shop/viewItem.do" class="org.jpetstore.web.spring.ViewItemController">
 		<property name="petStore" ref="petStore"/>
 	</bean>
 
-	<bean name="/shop/viewProduct.do" class="org.springframework.samples.jpetstore.web.spring.ViewProductController">
+	<bean name="/shop/viewProduct.do" class="org.jpetstore.web.spring.ViewProductController">
 		<property name="petStore" ref="petStore"/>
 	</bean>
 
@@ -91,24 +91,24 @@
 		</property>
 	</bean>
 
-	<bean id="signonInterceptor" class="org.springframework.samples.jpetstore.web.spring.SignonInterceptor"/>
+	<bean id="signonInterceptor" class="org.jpetstore.web.spring.SignonInterceptor"/>
 
-	<bean id="secure_editAccount" class="org.springframework.samples.jpetstore.web.spring.AccountFormController">
+	<bean id="secure_editAccount" class="org.jpetstore.web.spring.AccountFormController">
 		<property name="petStore" ref="petStore"/>
 		<property name="validator" ref="accountValidator"/>
 		<property name="successView" value="index"/>
 	</bean>
 
-	<bean id="secure_listOrders" class="org.springframework.samples.jpetstore.web.spring.ListOrdersController">
+	<bean id="secure_listOrders" class="org.jpetstore.web.spring.ListOrdersController">
 		<property name="petStore" ref="petStore"/>
 	</bean>
 
-	<bean id="secure_newOrder" class="org.springframework.samples.jpetstore.web.spring.OrderFormController">
+	<bean id="secure_newOrder" class="org.jpetstore.web.spring.OrderFormController">
 		<property name="petStore" ref="petStore"/>
 		<property name="validator" ref="orderValidator"/>
 	</bean>
 
-	<bean id="secure_viewOrder" class="org.springframework.samples.jpetstore.web.spring.ViewOrderController">
+	<bean id="secure_viewOrder" class="org.jpetstore.web.spring.ViewOrderController">
 		<property name="petStore" ref="petStore"/>
 	</bean>
 

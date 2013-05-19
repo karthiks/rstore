@@ -29,9 +29,9 @@
 			{
 			"include": { "file":"", "directory":"" }, 
 			"exclude": { "file":"", "directory":"" }, 
-			"caller_packages":"org.springframework.samples.jpetstore.service.client",
+			"caller_packages":"org.jpetstore.service.client",
 			"caller_classes":"",
-			"called_packages":"org.springframework.samples.jpetstore.domain",
+			"called_packages":"org.jpetstore.domain",
 			"called_classes":""
 			}
                  ]

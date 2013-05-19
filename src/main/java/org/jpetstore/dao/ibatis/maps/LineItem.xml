@@ -3,7 +3,7 @@
 
 <sqlMap namespace="LineItem">
 
-  <resultMap id="result" class="org.springframework.samples.jpetstore.domain.LineItem">
+  <resultMap id="result" class="org.jpetstore.domain.LineItem">
     <result property="orderId" column="orderid" columnIndex="1"/>
     <result property="lineNumber" column="linenum" columnIndex="2"/>
     <result property="itemId" column="itemid" columnIndex="3"/>

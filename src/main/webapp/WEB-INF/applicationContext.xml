@@ -39,10 +39,10 @@
 	<!-- ========================= BUSINESS OBJECT DEFINITIONS ======================== -->
 
 	<!-- Generic validator for Account objects, to be used for example by the Spring web tier -->
-	<bean id="accountValidator" class="org.springframework.samples.jpetstore.domain.logic.AccountValidator"/>
+	<bean id="accountValidator" class="org.jpetstore.domain.logic.AccountValidator"/>
 
 	<!-- Generic validator for Order objects, to be used for example by the Spring web tier -->
-	<bean id="orderValidator" class="org.springframework.samples.jpetstore.domain.logic.OrderValidator"/>
+	<bean id="orderValidator" class="org.jpetstore.domain.logic.OrderValidator"/>
 
 	<!--
 		JPetStore primary business object: default implementation,
@@ -51,7 +51,7 @@
 		source-level transaction annotations; the "tx:annotation-driven"
 		marker above will apply transaction advice automatically.
 	-->
-	<bean id="petStore" class="org.springframework.samples.jpetstore.domain.logic.PetStoreImpl">
+	<bean id="petStore" class="org.jpetstore.domain.logic.PetStoreImpl">
 		<property name="accountDao" ref="accountDao"/>
 		<property name="categoryDao" ref="categoryDao"/>
 		<property name="productDao" ref="productDao"/>
@@ -84,7 +84,7 @@
 
 	<!-- AOP advice used to send confirmation email after order has been submitted -->
 	<!--
-	<bean id="emailAdvice" class="org.springframework.samples.jpetstore.domain.logic.SendOrderConfirmationEmailAdvice">
+	<bean id="emailAdvice" class="org.jpetstore.domain.logic.SendOrderConfirmationEmailAdvice">
 		<property name="mailSender" ref="mailSender"/>
 	</bean>-->
 
@@ -96,7 +96,7 @@
 	<!--
 	<bean id="order-rmi" class="org.springframework.remoting.rmi.RmiServiceExporter">
 		<property name="service" ref="petStore"/>
-		<property name="serviceInterface" value="org.springframework.samples.jpetstore.domain.logic.OrderService"/>
+		<property name="serviceInterface" value="org.jpetstore.domain.logic.OrderService"/>
 		<property name="serviceName" value="order"/>
 		<property name="registryPort" value="1099"/>
 	</bean>

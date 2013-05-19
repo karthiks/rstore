@@ -3,7 +3,7 @@
 
 <sqlMap namespace="Sequence">
 
-  <resultMap id="result" class="org.springframework.samples.jpetstore.dao.ibatis.Sequence">
+  <resultMap id="result" class="org.jpetstore.dao.ibatis.Sequence">
     <result property="name" column="name" columnIndex="1"/>
     <result property="nextId" column="nextid" columnIndex="2"/>
   </resultMap>

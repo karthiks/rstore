@@ -12,7 +12,6 @@
 		<tiles.version>2.2.0</tiles.version>
 		<hsqldb.version>1.8.0.7</hsqldb.version>
 		<commons-fileupload.version>1.2.1</commons-fileupload.version>
-		<struts.version>1.2.9</struts.version>
 		<xml-rpc.version>1.1.0</xml-rpc.version>
 		<dbcp.version>1.2.2.osgi</dbcp.version>
 		<junit.version>4.6</junit.version>
@@ -35,11 +34,6 @@
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
 			<version>${commons-fileupload.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>com.springsource.org.apache.struts</artifactId>
-			<version>${struts.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.xml.rpc</groupId>

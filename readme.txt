@@ -15,11 +15,9 @@ Uses the same data model and demo contents as the original JPetStore.
 See the context definitions "WEB-INF/dataAccessContext-local.xml" respectively
 "WEB-INF/dataAccessContext-jta.xml" for details.
 
-Offers two alternative web tier implementations with the same user interface:
-one based on Spring's web MVC, and one based on Struts 1.2. The latter is close
-to the original JPetStore but reworked for JSTL, to make the JSP implementations
-as comparable as possible. See "WEB-INF/web.xml", "WEB-INF/petstore-servlet.xml",
-and "WEB-INF/struts-config.xml" for details.
+Web tier implementations are based on Spring's web MVC.
+See "WEB-INF/web.xml", "WEB-INF/petstore-servlet.xml", and 
+"WEB-INF/struts-config.xml" for details.
 
 Compared to the original JPetStore, this implementation is significantly
 improved in terms of internal structure and loose coupling: Leveraging Spring's
@@ -28,20 +26,13 @@ objects now. The most notable improvement is the former PetStoreLogic, now
 called PetStoreFacade: It is no longer concerned with configuration, resource,
 or transaction details.
 
-Note that the Spring-based web tier implementation is deliberately similar to
-the Struts-based one and does not aim to improve in terms of in-place error
-messages or the like. The inclusion of two web tier alternatives outlines the
-differences as well as the similarities in the respective programming model,
-and also illustrates the different configuration styles.
-
 2. BUILD AND DEPLOYMENT
 
 This directory contains the web app source. For deployment, it needs to be built 
 with Apache Maven. The only requirements are JDK >=1.5 and Maven >=2.0.8.
 
 Run "mvn package" in this directory to build the war files. The war file 
-(org.springframework.samples.jpetstore-1.0.0-SNAPSHOT.war) will be created 
-in the "target" directory.
+(jpetstore.war) will be created in the "target" directory.
 
 To execute the web application with its default settings, simply start the
 HSQLDB instance in the "db/hsqldb" directory, for example using "server.bat".

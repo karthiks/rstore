@@ -55,3 +55,18 @@ A guide to step-by-step deployment, assuming JDK 1.5.x and Tomcat 6.x:
 3. Start HSQLDB via "db/hsqldb/server.bat" or "db/hsqldb/server.sh"
 4. Start Tomcat (default port will be 8080)
 5. Open "http://localhost:8080/jpetstore" in a browser
+
+
+----------------------------------------------------------------------
+A guide to step-by-step deployment, assuming JDK 1.5.x and Jetty 9.x:
+----------------------------------------------------------------------
+1. Run "mvn jetty:run-war" for Jetty to deploy the webapp from its sources
+2. Start HSQLDB via "db/hsqldb/server.bat" or "db/hsqldb/server.sh"
+
+
+References:
+1. http://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html
+2. http://hsqldb.org/web/usagelinks.html
+3. http://hsqldb.org/
+4. http://stackoverflow.com/questions/7335743/how-to-connect-to-a-file-based-hsqldb-database-with-sqltool
+5. http://hsqldb.org/doc/guide/pr01.html

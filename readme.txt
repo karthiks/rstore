@@ -65,8 +65,15 @@ A guide to step-by-step deployment, assuming JDK 1.5.x and Jetty 9.x:
 
 
 References:
-1. http://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html
-2. http://hsqldb.org/web/usagelinks.html
-3. http://hsqldb.org/
-4. http://stackoverflow.com/questions/7335743/how-to-connect-to-a-file-based-hsqldb-database-with-sqltool
-5. http://hsqldb.org/doc/guide/pr01.html
+1. Jetty:
+    http://www.eclipse.org/jetty/documentation/current/
+    http://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html
+    
+2. HSQL DB    
+    http://hsqldb.org/web/usagelinks.html
+    http://hsqldb.org/
+    http://stackoverflow.com/questions/7335743/how-to-connect-to-a-file-based-hsqldb-database-with-sqltool
+    http://hsqldb.org/doc/guide/pr01.html
+
+3. JBehave
+    http://jbehave.org/reference/stable/faq.html
